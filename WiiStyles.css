@@ -89,12 +89,12 @@ body {
   margin-bottom: 1rem;
 }
 
-.fa-paint-brush {
+.fa-gamepad {
   color: #d60c0c;
 }
 
-.fa-handshake {
-  color: #3aa111;
+.fa-trophy {
+  color: gold;
 }
 
 .fa-search {
@@ -102,7 +102,7 @@ body {
 }
 
 .fa-gamepad,
-.fa-handshake,
+.fa-trophy,
 .fa-search {
   font-size: 4em;
   margin: 1rem;
@@ -292,7 +292,7 @@ figure {
   height: 100%;
 }
 #fixed {
-  background-image: url("https://s3-us-west-2.amazonaws.com/artcircle.com/architecture-auditorium-building-69815.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/mysillyduproject/buttons-console-dark-1637438.jpg");
   position: fixed;
   display: block;
   top: 0;

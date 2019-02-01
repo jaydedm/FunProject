@@ -11,11 +11,11 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous"></link>
-    <link href="https://s3-us-west-2.amazonaws.com/artcircle.com/style.css" rel="stylesheet"></link>
+    <link href="https://s3-us-west-2.amazonaws.com/mysillyduproject/WiiStyles.css" rel="stylesheet"></link>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-        <nav th:fragment="navigation" class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
 
 
                 <div class ="container-fluid">
@@ -34,9 +34,11 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">Services</a>
                                 <div class="dropdown-menu" aria-labelledby="dropdown_target">
-                                    <a href="/create" class="dropdown-item">Create an Opportunity</a>
+                                    <a href="/create" class="dropdown-item">Give us your money</a>
                                     <div class="dropdown-divider"></div>
-                                    <a href ="/search" class="dropdown-item">Search for an Opportunity</a>
+                                    <a href ="/search" class="dropdown-item">Give us your money later</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a href ="/graph.html" class="dropdown-item">Check out how many suckers we already got.</a>
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -80,7 +82,7 @@
         <div class="carousel-item">
             <img class = "d-block w-100" src="https://s3-us-west-2.amazonaws.com/mysillyduproject/connection-device-display-776092.jpg" alt="Third slide">
             <div class="carousel-caption">
-                <h2>Play by a wooden table</h2>
+                <h2>Play Some More</h2>
                 <a href="/login"><button type="button" class="btn btn-outline-light btn-lg">Log In</button></a>
                 <a href="/register"><button type="button" class="btn btn-primary btn-lg">Create an Account</button></a>
             </div>
@@ -129,23 +131,22 @@
         <div class="artistbox">
             <i class="fas fa-gamepad">
             </i>
-            <h3>All Artists</h3>
-            <p>Performance, Visual, all artists are welcome here.</p>
+            <h3>Gamers</h3>
+            <p>All are welcome here</p>
         </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-m-3 col-md-4">
         <div class="opportunitybox">
-            <a href="/create"><i class="fa fa-handshake"></i></a>
-            <h3>Create an Opportunity</h3>
-            <p>Need to fill a spot for your summer festival, show-stopping production, wedding, or
-            any other need? Look no further.</p>
+            <a href="/create"><i class="fa fa-trophy"></i></a>
+            <h3>The Best</h3>
+            <p>We strive to provide you with the best entertainment experience possible</p>
         </div>
         </div>
         <div class="col-xs-12 col-sm-6 col-m-3 col-md-4">
         <div class ="searchbox">
             <a href="/search"><i class="fa fa-search"></i></a>
             <h3>Search</h3>
-            <p>Find an opportunity that matches your skill set.</p>
+            <p>Let's find you some games, me boy.</p>
         </div>
         </div>
     </div>
@@ -162,12 +163,21 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto fugit ipsa iusto molestiae quia ut!</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus autem debitis dignissimos fugiat harum id illum iste labore magnam maxime neque nihil nobis, optio perspiciatis porro quaerat reiciendis repellendus sint unde voluptatibus. At corporis, culpa dignissimos dolore eaque eum explicabo inventore quasi. Animi ipsa, quae.</p>
             <br></br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Voluptatem iusto praesentium sed velit facilis quas nemo placeat, exp
+                edita itaque possimus inventore aliquid rerum? Dignissimos, sapiente neq
+                ue. Quisquam cum mollitia explicabo.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Volupt
+                    atum provident repudiandae voluptas, dicta corporis fugiat laborio
+                    sam reprehenderit inventore explicabo veritatis alias obcaecati volup
+                    tatibus debitis iure perferendis expedita autem minima vitae?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio modi possimus, reprehenderit iusto natus fugiat dolores quas veritatis voluptates totam veniam aspernatur impedit. Ex adipisci porro, error delectus officiis corrupti.</p>
             <a href="#" class="btn btn-primary">Learn More</a>
         </div>
         </div>
         <div class="col-lg-6">
         <div class="ifyoubuildpicbox">
-            <img src="https://s3-us-west-2.amazonaws.com/artcircle.com/desk.png" class="img-fluid"></img>
+            <img src="https://s3-us-west-2.amazonaws.com/mysillyduproject/connection-device-display-776092.jpg" class="img-fluid"></img>
         </div>
         </div>
     </div>
@@ -191,16 +201,16 @@
         <div class="row text-center">
     
             <div class="col-sm-6 col-md-3">
-                <img class="gif" src="https://s3-us-west-2.amazonaws.com/artcircle.com/panda.gif"/>
+                <img class="gif" src="https://s3-us-west-2.amazonaws.com/mysillyduproject/Mario+headbang.gif"/>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img class="gif" src="https://s3-us-west-2.amazonaws.com/artcircle.com/poo.gif"/>
+                <img class="gif" src="https://s3-us-west-2.amazonaws.com/mysillyduproject/kirbygif.gif"/>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img class="gif" src="https://s3-us-west-2.amazonaws.com/artcircle.com/unicorn.gif"/>
+                <img class="gif" src="https://s3-us-west-2.amazonaws.com/mysillyduproject/luigi.gif"/>
             </div>
             <div class="col-sm-6 col-md-3">
-                <img class="gif" src="https://s3-us-west-2.amazonaws.com/artcircle.com/chicken.gif"/>
+                <img class="gif" src="https://s3-us-west-2.amazonaws.com/mysillyduproject/linkgif.gif"/>
             </div>
     
         </div>
@@ -238,10 +248,10 @@
         <div class="col-md-4">
             <div class="card" id="card2">
     
-                <img class="card-img-top" src="https://s3-us-west-2.amazonaws.com/artcircle.com/jaydecardpic.jpg"/>
+                <img class="card-img-top" src="https://s3-us-west-2.amazonaws.com/mysillyduproject/reggie__medium.jpg"/>
                 <div class="card-body">
-                    <h4 class="card-title">Jayde Mitchell</h4>
-                    <p class="card-text">Jayde Mitchell is a new software engineer with a passion and drive to deliver the absolute best.</p>
+                    <h4 class="card-title">Reggie Fils-Aime</h4>
+                    <p class="card-text">Hey guys whats good</p>
                     <a href="#" class="btn btn-outline-secondary">See Profile</a>
                 </div>
     
@@ -253,8 +263,8 @@
     
                 <img class="card-img-top" src="https://s3-us-west-2.amazonaws.com/artcircle.com/team3.png"/>
                 <div class="card-body">
-                    <h4 class="card-title">Phil Ho</h4>
-                    <p class="card-text">Phil Ho is such a great guy. He juggles on the weekend.</p>
+                    <h4 class="card-title">Phil Bo</h4>
+                    <p class="card-text">Phil Bo is such a great guy. He juggles on the weekend.</p>
                     <a href="#" class="btn btn-outline-secondary">See Profile</a>
     
             </div>
@@ -266,21 +276,17 @@
     </div>
     
     <!--- Two Column Section -->
-    
+<hr/>
     <div class="container-fluid padding">
     <div class="row padding">
         <div class="col-lg-6">
             <h2>Our Philosophy</h2>
-            <p>We know that greatness in a disruptive era requires bold ambition,
-            curious talent, and a culture that believes we're smarter together.</p>
-            <p>We approach every challenge holistically, with best-in-class expertise
-            in data, creativity, media, technology, search, social and more. We call this Alchemy.
-            It has the power to build our clients' brands and transform their business. And while
-            it may seem like magic, we've got it down to a science.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sed a quod fuga, dolorem quae corrupti id quisquam consequuntur, similique molestiae, veritatis exercitationem? Assumenda aspernatur suscipit illo animi in earum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum excepturi accusantium temporibus repellat, ipsum labore exercitationem minus quae saepe eaque, rem dignissimos voluptatum odio culpa eum, explicabo hic! Excepturi, accusamus! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus rerum fuga, commodi ratione animi dignissimos doloribus distinctio reprehenderit facilis minima atque odio omnis recusandae dolore laudantium magnam repellendus earum repellat?</p>
             <br/>
         </div>
         <div class="col-lg-6">
-            <img src="https://s3-us-west-2.amazonaws.com/artcircle.com/bootstrap2.png" class="img-fluid"/>
+            <img src="https://s3-us-west-2.amazonaws.com/mysillyduproject/arcade-buttons-computer-371924.jpg" class="img-fluid"/>
         </div>
     
     </div>
@@ -288,7 +294,7 @@
     </div>
     
     <!--- Map -->
-    <div class="container-fluid padding">
+    <!-- <div class="container-fluid padding">
     <div class = "row padding">
         <div class="col-lg-7">
     
@@ -304,7 +310,7 @@
     
     </div>
         <hr class="my-4"/>
-    </div>
+    </div> -->
     
     
     <!--- Connect -->
@@ -330,9 +336,10 @@
         <div class="container-fluid padding">
         <div class="row text-center">
             <div class="col-md-4">
-                <img src="https://s3-us-west-2.amazonaws.com/artcircle.com/ArtCircle.png"/>
                 <hr class="light"/>
-                <p>970-442-0108</p>
+                <h5>Some Stuff</h5>
+                <hr class="light"/>
+                <p>970-867-5309</p>
                 <p><a href="mailto:jed93_@hotmail.com.com">jed93_@hotmail.com</a></p>
                 <p>Top Secret HQ</p>
                 <p>Saint Louis, MO 63130</p>
@@ -347,14 +354,14 @@
             </div>
             <div class="col-md-4">
                 <hr class="light"/>
-                <h5>About Us</h5>
+                <h5>Our Best Friends</h5>
                 <hr class="light"/>
-                <p><a href="http://jaydemitchell.com">jaydemitchell.com</a></p>
-                <p><a href="http://barnhaus.farm">Barnhaus</a></p>
+                <p><a href="http://jaydemitchell.com">Microsoft Xbox</a></p>
+                <p><a href="http://barnhaus.farm">Sony Playstation</a></p>
             </div>
             <div class="col-12">
                 <hr class="light-100"/>
-                <h5>&copy; Barnhaus</h5>
+                <h5>&copy; JM</h5>
             </div>
         </div>
         </div>

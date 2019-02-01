@@ -53,7 +53,7 @@ let options = {
     enabled: false
   },
   title: {
-    text: "Unit Sales by US City",
+    text: "Wii Unit Sales by US City",
     align: "center",
     margin: 20,
     offsetY: 20,
